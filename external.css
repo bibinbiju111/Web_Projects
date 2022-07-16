@@ -1,0 +1,245 @@
+h1.H {
+  font-family: "Audiowide", serif;
+}
+
+h2 {
+  font-family: "Sofia", serif;
+  font-size: xx-large;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  align-items: center;
+}
+
+.QutubMinar {
+  position: relative;
+  padding: 10px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(228, 217, 119, 0.753),
+    rgb(206, 211, 133),
+    rgb(230, 216, 99)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 40px;
+}
+
+.TajMahal {
+  position: relative;
+  padding: 10px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(88, 148, 187, 0.753),
+    rgb(126, 201, 226),
+    rgb(131, 204, 159)
+  );
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 35px;
+}
+
+#SanchiStupa {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(233, 185, 80, 0.753),
+    rgb(241, 217, 80),
+    rgb(110, 89, 57)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 35px;
+}
+#VictoriaMemorial {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(241, 236, 224, 0.753),
+    rgb(127, 217, 233),
+    rgb(98, 158, 103)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 35px;
+}
+#HawaMahal {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  padding: 10px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(241, 236, 224, 0.753),
+    rgb(230, 191, 109),
+    rgb(163, 132, 86)
+  );
+  margin: 110px;
+  border-radius: 35px;
+}
+#Hampi {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(235, 176, 49, 0.753),
+    rgb(141, 119, 71),
+    rgb(163, 132, 86)
+  );
+  padding: 10px;
+  margin: 110px;
+  color: rgb(0, 0, 0);
+  border-radius: 35px;
+}
+
+#Header {
+  position: relative;
+  top: 0px;
+  text-shadow: 100px;
+  background-image: linear-gradient(
+    120deg,
+    rgba(174, 210, 235, 0.952),
+    rgb(123, 150, 172),
+    rgb(140, 160, 160)
+  );
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  padding: 10px;
+}
+
+body {
+  background-image: url("img/india3.jpg ");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#Footer {
+  width: 40%;
+  left: 30%;
+  position: relative;
+  bottom: 0px;
+  border-radius: 20px;
+  background-color: rgb(182, 181, 134);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size:20px;
+}
+
+.taj-p {
+  text-align: left;
+  font-family: "Trirong";
+  margin-left: 10px;
+  padding: 10px;
+}
+.qutub-p {
+  text-align: left;
+  font-family: "Trirong";
+  margin-left: 10px;
+  padding: 10px;
+}
+.sanchi-p {
+  text-align: left;
+  font-family: "Trirong";
+  margin-left: 10px;
+  padding: 10px;
+}
+.hawa-p {
+  text-align: left;
+  font-family: "Trirong";
+  margin-left: 10px;
+  padding: 10px;
+}
+.victoria-p {
+  text-align: left;
+  font-family: "Trirong";
+  margin-left: 10px;
+  padding: 10px;
+}
+.hampi-p {
+  text-align: left;
+  font-family: "Trirong";
+  margin-left: 10px;
+  padding: 10px;
+}
+.taj-img {
+  border-radius: 5px;
+}
+.qutub-img {
+  border-radius: 10px;
+}
+.sanchi-img {
+  border-radius: 10px;
+}
+.victoria-img {
+  border-radius: 10px;
+}
+.hawa-img {
+  border-radius: 10px;
+}
+.hampi-img {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .TajMahal {
+    width: 350px;
+  }
+  .taj-img {
+    width: 200px;
+  }
+
+  .QutubMinar {
+    width: 350px;
+  }
+  .qutub-img {
+    width: 200px;
+  }
+
+  #SanchiStupa {
+    width: 350px;
+  }
+  .sanchi-img {
+    width: 200px;
+  }
+
+  #VictoriaMemorial {
+    width: 350px;
+  }
+  .victoria-img {
+    width: 200px;
+  }
+
+  #HawaMahal {
+    width: 350px;
+  }
+  .hawa-img {
+    width: 200px;
+  }
+
+  #Hampi {
+    width: 350px;
+  }
+  .hampi-img {
+    width: 200px;
+  }
+}
